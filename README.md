@@ -1,6 +1,11 @@
 # Cyber-Share
 A web server for movie sharing on a LAN.
 
+# Previews:
+ - ## Laptop view: 
+  ![laptop-view](./screenshots/laptop.png)
+ - ## Video Controls:
+  ![video-controls](./screenshots/watch.png)
 # Notes:
  - FFMPEG must be installed for the audio codec change to take place. If not it will fail.
  - When running `server.py` ypu should have every library installed. `pip install -r requirements.txt`
