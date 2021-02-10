@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  Bootstrap(s)  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!--  Jquery link(s)  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--  React.js libraries  -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- Font awesome kit  -->
+  <script src="https://kit.fontawesome.com/b82b391bad.js" crossorigin="anonymous"></script>
+  <!--  My CSS and JS  -->
+  <script type="text/javascript">
+    var data = "{{data}}";
+    data = data.replace(/&#34;/g, '"');
+    data = JSON.parse(data)
+  </script>
+  <script type="text/jsx" src="/static/index.js"></script>
+  <link rel="stylesheet" href="/static/style.css">
+  <title>Cyber-Share</title>
+</head>
+<body>
+  <div class="modal"></div>
+  <div class="container-fluid" id="main-title"><h1>Cyber-Share</h1></div>
+  <div class="container-fluid" id="movies"></div>
+</body>
+</html>
